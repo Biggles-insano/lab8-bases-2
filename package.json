@@ -2,9 +2,11 @@
   "name": "lab8-bases-2",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "service.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "inciso1y2": "node inciso1y2.js",
+    "inciso3": "node inciso3.js",
+    "inciso4": "node inciso4.js"
   },
   "repository": {
     "type": "git",
