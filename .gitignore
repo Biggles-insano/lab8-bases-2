@@ -1,0 +1,48 @@
+# Dependencias
+node_modules/
+
+# Logs y depuración
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Variables de entorno y secretos locales
+.env
+.env.*
+!.env.example
+
+# Archivos de conexión descargados de Neo4j Aura (credenciales)
+Neo4j-*.txt
+
+# Salidas de compilación / empaquetado
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Cobertura y pruebas
+coverage/
+.nyc_output/
+
+# Cachés de herramientas
+.cache/
+.parcel-cache/
+.turbo/
+.eslintcache
+*.pem
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editores e IDEs
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
